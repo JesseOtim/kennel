@@ -311,6 +311,10 @@ textarea {
 
 footer {
   background-color: #12d436;
+  background-image: url(../images/Grassfield.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   color: #080603;
   padding: 1.25rem 0;
