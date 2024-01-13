@@ -30,8 +30,8 @@ img {
 }
 
 header {
-  max-width: 1200px;
-  padding: 2.5rem;
+  max-width: 800px;
+  padding: 1.5rem;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -68,6 +68,10 @@ header a:hover {
 
 .introducao-bg {
   background-color: #d1bcb7;
+  background-image: url(../images/massimo-negrello-Cgup_bHsr_w-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 5.625rem;
 }
 
@@ -310,20 +314,18 @@ textarea {
 /* --------- RODAPÉ --------- */
 
 footer {
-  background-color: #12d436;
-  background-image: url(../images/Grassfield.avif);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: orangered;
   text-align: center;
-  color: #080603;
+  color: black;
   padding: 1.25rem 0;
   font-weight:bold;
+  font-style: italic;
 }
 
 footer img {
   margin: 0 auto;
   margin-bottom: 0.625rem;
+  background: none;
 }
 
 /* MEDIA QUERY */
