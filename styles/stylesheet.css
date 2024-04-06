@@ -391,6 +391,10 @@ footer img {
   .contato-conteudo {
     gap: 2.5rem;
   }
+
+  img{
+    margin-right: 25px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -411,6 +415,10 @@ footer img {
   header img {
     margin-bottom: 20px;
   }
+
+  img{
+    margin-right: 25px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -419,5 +427,8 @@ footer img {
   }
   .button {
     font-size: 0.75rem;
+  }
+  img{
+    margin-right: 25px;
   }
 }
