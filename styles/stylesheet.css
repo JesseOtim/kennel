@@ -333,6 +333,16 @@ footer img {
 /* MEDIA QUERY */
 
 @media (max-width: 1000px) {
+  body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  footer{
+    padding-bottom: 75px;
+    padding-top: 45px;
+  }
+
   .intro-texto h1 {
     font-size: 1.875rem;
   }
@@ -346,6 +356,7 @@ footer img {
   img{
     margin-right: 25px;
   }
+ 
 }
 
 @media (max-width: 800px) {
