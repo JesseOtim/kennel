@@ -1,0 +1,104 @@
+body,
+ul,
+li,
+h1,
+h3,
+small,
+p,
+button {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f6f6;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header img {
+  cursor: pointer;
+  height: 120px;
+  margin-right: 20px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4e4d4c;
+}
+
+.home,
+.pets,
+.contacts,
+.donate {
+  color: #4e4d4c;
+  font-weight: bold;
+}
+
+#aboutus {
+  color: #4e4d4c;
+  font-weight: bold;
+}
+
+#aboutus:hover {
+  color: #c74323;
+}
+
+#Adopt {
+  font-size: 60px;
+}
+
+header a:hover {
+  color: #c74323;
+}
+
+.Heading {
+    text-align: center;
+    font-weight: bold;
+    /* Center the text */
+    margin: 0 auto;
+    /* Center the element horizontally */
+    width: 100%;
+    /* Ensure it spans the full width */
+    padding: 20px 0;
+    /* Add some vertical spacing */
+}
+
+.Paragraph {
+    text-align: center;
+    margin: 0 auto;
+    /* Center the element horizontally */
+    width: 100%;
+    /* Ensure it spans the full width */
+    padding: 20px 0;
+}
