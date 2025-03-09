@@ -63,9 +63,23 @@ a {
 
 .home,
 .pets,
-.contacts {
+.contacts,
+.donate {
   color: #4e4d4c;
   font-weight: bold;
+}
+
+#aboutus {
+  color: #4e4d4c;
+  font-weight: bold;
+}
+
+#aboutus:hover {
+  color: #c74323;
+}
+
+#Adopt {
+  font-size: 60px;
 }
 
 header a:hover {
@@ -142,6 +156,48 @@ header nav ul li a.btn:hover {
 .button:hover {
   background-color: #ffffff;
   color: #c74323;
+}
+
+.first {
+  /* background-color: #d1bcb7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  padding: 5.625rem;
+}
+
+.second {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 1.875rem;
+  gap: 2.5rem;
+
+}
+
+.fourth {
+  color: #fff0e1;
+}
+
+.intro-texto h1 {
+  margin-bottom: 1.25rem;
+  font-size: 2.5rem;
+}
+
+.intro-texto p {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  max-width: 36ch;
+}
+
+#firstButton {
+  color: white;
+  font-weight: bold;
+  padding: 15px 15px;
+  background-color: orangered;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
 }
 
 /* --------- PETS --------- */

@@ -1,0 +1,39 @@
+body,
+ul,
+li,
+h1,
+h3,
+small,
+p,
+button {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Heading {
+    text-align: center;
+    font-weight: bold;
+    /* Center the text */
+    margin: 0 auto;
+    /* Center the element horizontally */
+    width: 100%;
+    /* Ensure it spans the full width */
+    padding: 20px 0;
+    /* Add some vertical spacing */
+}
+.Paragraph{
+    text-align: center;
+    margin: 0 auto;
+    /* Center the element horizontally */
+    width: 100%;
+    /* Ensure it spans the full width */
+    padding: 20px 0;
+}
