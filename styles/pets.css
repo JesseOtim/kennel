@@ -31,6 +31,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  height: 100vh;
   padding-left: 20px;
 }
 
@@ -72,61 +73,75 @@ header a:hover {
   color: darkblue;
 }
 
+.Heading {
+  text-align: center;
+  font-weight: bold;
+  /* Center the text */
+  margin: 0 auto;
+  /* Center the element horizontally */
+  width: 100%;
+  /* Ensure it spans the full width */
+  padding: 20px 0;
+  /* Add some vertical spacing */
+}
+
 /* Side Navigation Styles */
 .side-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100vh;
-    width: 250px;
-    background-color: #f8f6f6;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    z-index: 1000;
-    margin-top: 160px; /* Adjust based on header height */
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #f8f6f6;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+  margin-top: 160px;
+  /* Adjust based on header height */
 }
 
 .side-nav nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .side-nav nav ul li {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .side-nav nav ul li a {
-    color: #4e4d4c;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
-    display: block;
-    padding: 8px 12px;
-    border-radius: 4px;
+  color: #4e4d4c;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 4px;
 }
 
 .side-nav nav ul li a:hover {
-    color: #c74323;
-    background-color: rgba(199, 67, 35, 0.1);
+  color: #c74323;
+  background-color: rgba(199, 67, 35, 0.1);
 }
 
 /* Adjust main content to account for side nav */
 .content {
-    margin-left: 270px; /* Side nav width + 20px margin */
-    padding: 20px;
+  margin-left: 270px;
+  /* Side nav width + 20px margin */
+  padding: 20px;
 }
 
 /* Carousel Styles */
 .carousel {
-    margin: 20px auto;
-    max-width: 800px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .carousel img {
-    max-height: 800px;
-    object-fit: cover;
+  max-height: 800px;
+  object-fit: cover;
 }
