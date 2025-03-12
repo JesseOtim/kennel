@@ -546,4 +546,47 @@ footer img {
   }
 }
 
+@media (min-width: 2560px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: orangered;
+    z-index: 1000;
+  }
+
+  #home {
+    width: 100%;
+    max-width: 2200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .logo-link {
+    float: left;
+  }
+  
+  .logo {
+    width: 150px;
+    /* Adjust this value as needed */
+    height: auto;
+  }
+  
+  .nav-list {
+    float: right;
+  }
+  
+  .nav-list li a {
+    font-size: 30px;
+    padding: 0 15px;
+    color: black !important;
+  }
+  
+  .nav-list li a:hover {
+    color: #c74323 !important;
+  }
+}
+
 /* Center the "Ready to Adopt" header */
