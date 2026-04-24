@@ -21,7 +21,12 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f8f6f6;
+  min-height: 100vh;
   overflow-x: hidden;
+  background-image: url(../images/alvan-nee-T-0EW-SEbsE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -83,22 +88,24 @@ header a:hover {
 }
 
 .Heading {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     /* Center the text */
-    margin: 0 auto;
+    margin-left: 20px;
     /* Center the element horizontally */
     width: 100%;
     /* Ensure it spans the full width */
     padding: 20px 0;
     /* Add some vertical spacing */
+    color: brown;
 }
 
 .Paragraph {
-    text-align: center;
-    margin: 0 auto;
+    text-align: left;
+    margin-left: 20px;
     /* Center the element horizontally */
     width: 100%;
     /* Ensure it spans the full width */
     padding: 20px 0;
+    color: white;
 }
