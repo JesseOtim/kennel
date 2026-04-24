@@ -122,3 +122,29 @@ header a:hover {
   box-shadow: 0 14px 38px rgba(0, 0, 0, 0.28);
   backdrop-filter: blur(2px);
 }
+
+.donate-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.donate-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff5f3c, #c74323);
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(199, 67, 35, 0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.donate-btn:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow: 0 10px 24px rgba(199, 67, 35, 0.5);
+}

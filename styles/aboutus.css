@@ -120,3 +120,40 @@ header a:hover {
   box-shadow: 0 14px 38px rgba(0, 0, 0, 0.28);
   backdrop-filter: blur(2px);
 }
+
+.contact-hero {
+  max-width: 980px;
+  margin: 40px auto 20px;
+  padding: 30px 26px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(35, 28, 24, 0.68), rgba(65, 46, 36, 0.55));
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(2px);
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 11px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff5f3c, #c74323);
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(199, 67, 35, 0.45);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.contact-btn:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow: 0 10px 24px rgba(199, 67, 35, 0.5);
+}
