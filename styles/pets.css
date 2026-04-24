@@ -63,10 +63,16 @@ a {
 
 .home,
 .pets,
-.contacts {
+.contacts,
+.donate,
+#aboutus {
   color: #4e4d4c;
   font-weight: bold;
   text-decoration: none;
+}
+
+#aboutus:hover {
+  color: darkblue;
 }
 
 header a:hover {
